@@ -1,0 +1,42 @@
+body{
+    background-image:url("pexels-simon-berger-1323550.jpg");
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-size: cover;
+animation-name: lol;
+animation-duration:20s;
+animation-iteration-count: infinite;
+}
+#container{
+align-content: space-between;
+}
+#score{
+margin-left: 5px;
+font-size: x-large;
+}
+#time{
+    float: right;
+font-size: x-large;
+margin-right: 5px;
+}
+#doodletodraw{
+    color: rgb(97, 172, 97);
+    font-size: large;
+}
+@keyframes lol{
+    0%{
+        background-image:url("pexels-simon-berger-1323550.jpg");
+        background-size: cover;
+    }
+    45%{
+        background-image:url("pexels-eberhard-grossgasteiger-1287142.jpg");
+        background-size: cover;
+    }
+    90%{
+        background-image:url("pexels-toni-cuenca-688574.jpg");
+        background-size: cover;
+    }
+    100%{
+        background-image:url("pexels-simon-berger-1323550.jpg");
+        background-size: cover;
+    }
+}
